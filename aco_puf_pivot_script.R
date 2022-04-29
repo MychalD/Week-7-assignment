@@ -2,6 +2,8 @@ library(tidyverse)
 library(dplyr)
 library(usethis)
 
+
+#Data comes from: https://data.cms.gov/medicare-shared-savings-program/performance-year-financial-and-quality-results/data
 acopuf<- read.csv(file = "Performance_Year_Financial_and_Quality_Results_2020.csv")
 
 
